@@ -12,7 +12,7 @@ public class Square {
     int row;
     int col;
     String symbol;
-    public Peice peice;
+    public Peice peice = null;
     public Square(int row, int col) {
         this.row = row;
         this.col = col;

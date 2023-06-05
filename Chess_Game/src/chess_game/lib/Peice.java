@@ -10,6 +10,7 @@ package chess_game.lib;
  */
 public class Peice {
     boolean White;
+    boolean first_move = true;
     String  type;
     
     public Peice(boolean White, String type) {

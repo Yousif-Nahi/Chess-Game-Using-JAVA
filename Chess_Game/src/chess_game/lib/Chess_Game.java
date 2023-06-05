@@ -11,14 +11,20 @@ package chess_game.lib;
 
 import java.util.HashMap;
 import chess_game.ui.Board;
+import com.formdev.flatlaf.FlatDarkLaf;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.ImageIcon;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
+
 
 public class Chess_Game {
     public static HashMap<String,Square> Board_Data=new HashMap<>();
     public static HashMap<String,javax.swing.JButton> Board_UI=new HashMap<>();
     public static HashMap<String,ImageIcon> image=new HashMap<>();
-    
-    
+    public static Board chess_board;
+    public static boolean white_turn = true;
     /**
      * @param args the command line arguments
      */
@@ -49,16 +55,37 @@ public class Chess_Game {
          
          
         
-       
-        //print_board();
-        Board chess_board = new Board();
-        chess_board.show();
-        create_board_data(); 
+      
+        try {
+            UIManager.setLookAndFeel(new FlatDarkLaf());
+        } catch (UnsupportedLookAndFeelException ex) {
+            Logger.getLogger(Chess_Game.class.getName()).log(Level.SEVERE, null, ex);
+        }
         
-     
         
+        new_game();
+        
+               
+//        Board_Data.get(""+4+5).peice = new Peice(true, "knight");
+//        Board_UI.get(""+4+5).setIcon(image.get("knight_true"));
+//        
+//        Board_Data.get(""+5+4).peice = new Peice(true, "queen");
+//        Board_UI.get(""+5+4).setIcon(image.get("queen_true"));
+//        
+//        Board_Data.get(""+6+3).peice = new Peice(false, "pawn");
+//        Board_UI.get(""+6+3).setIcon(image.get("pawn_false"));
+//        
+//        Board_Data.get(""+6+4).peice = new Peice(true, "rook");
+//        Board_UI.get(""+6+4).setIcon(image.get("rook_true"));
+           
     }
-    
+    public static void new_game(){
+        white_turn = true;
+        chess_board = new Board();
+        Moves.reset_colors();
+        chess_board.show();
+        create_board_data();
+    }
     public static void create_board_data(){
         //creating the Board and putting it in a map for later accses for when moving / attacking
         for(int i=1;i<9;i++){
@@ -73,8 +100,7 @@ public class Chess_Game {
         //creating white pawns on row 7
         
         for(int i=1;i<9;i++){
-            Peice peice = new Peice(true, "pawn");
-            Board_Data.get(""+7+i).peice = peice;
+            Board_Data.get(""+7+i).peice = new Peice(true, "pawn");
             Board_UI.get(""+7+i).setIcon(image.get("pawn_true"));
         }
         
@@ -107,8 +133,7 @@ public class Chess_Game {
         // black peices
         //creating black pawns on row 2
         for(int i=1;i<9;i++){
-            Peice peice = new Peice(false, "pawn");
-            Board_Data.get(""+2+i).peice = peice;
+            Board_Data.get(""+2+i).peice = new Peice(false, "pawn");
             Board_UI.get(""+2+i).setIcon(image.get("pawn_false"));
         }
         
@@ -138,27 +163,4 @@ public class Chess_Game {
         Board_Data.get(""+1+4).peice = new Peice(false, "queen");
         Board_UI.get(""+1+4).setIcon(image.get("queen_false"));
     }
-//    public static void print_board(){
-//        boolean white = true;
-//        for(int i=1;i<9;i++){
-//                        
-//                for(int j=1;j<9;j++){                
-//                    String key;
-//                    Square temp = Board_Data.get(""+i+j);
-//                    
-//                    if(Objects.isNull(temp.peice)){
-//                      key = "square" + "_" + white;
-//                    }
-//                    
-//                    else {
-//                      key = temp.peice.getType() + "_" + temp.peice.isWhite();
-//                    }
-//                    System.out.print(" " + symbol.get(key));
-//                    white = !white;
-//                }
-//                white = !white;
-//                System.out.println();
-//            }
-//    }
-    
 }

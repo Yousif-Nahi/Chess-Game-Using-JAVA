@@ -4,8 +4,8 @@
  */
 package chess_game.ui;
 import static chess_game.lib.Chess_Game.Board_UI;
-import java.awt.Color;
-
+import chess_game.lib.Moves;
+import static chess_game.lib.Moves.show_moves;
 /**
  *
  * @author Raid Nahi
@@ -655,304 +655,266 @@ import java.awt.Color;
     }// </editor-fold>//GEN-END:initComponents
 
     private void square_1_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_1_3ActionPerformed
-        // TODO add your handling code here:
+        show_moves(1, 3);
     }//GEN-LAST:event_square_1_3ActionPerformed
 
     private void square_1_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_1_1ActionPerformed
-        // TODO add your handling code here:
+        show_moves(1, 1);
     }//GEN-LAST:event_square_1_1ActionPerformed
 
     private void square_1_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_1_2ActionPerformed
-        // TODO add your handling code here:
+        show_moves(1, 2);
     }//GEN-LAST:event_square_1_2ActionPerformed
 
     private void square_1_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_1_4ActionPerformed
-        // TODO add your handling code here:
+        show_moves(1, 4);
     }//GEN-LAST:event_square_1_4ActionPerformed
 
     private void square_1_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_1_5ActionPerformed
-        // TODO add your handling code here:
+       show_moves(1, 5);
     }//GEN-LAST:event_square_1_5ActionPerformed
 
     private void square_1_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_1_8ActionPerformed
-        // TODO add your handling code here:
+        show_moves(1,8);
     }//GEN-LAST:event_square_1_8ActionPerformed
 
     private void square_1_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_1_7ActionPerformed
-        // TODO add your handling code here:
+        show_moves(1, 7);
     }//GEN-LAST:event_square_1_7ActionPerformed
 
     private void square_1_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_1_6ActionPerformed
-        // TODO add your handling code here:
+       show_moves(1, 6);
     }//GEN-LAST:event_square_1_6ActionPerformed
 
     private void square_2_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_2_2ActionPerformed
-        // TODO add your handling code here:
+       show_moves(2, 2);
     }//GEN-LAST:event_square_2_2ActionPerformed
 
     private void square_2_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_2_1ActionPerformed
-        // TODO add your handling code here:
+        show_moves(2, 1);
     }//GEN-LAST:event_square_2_1ActionPerformed
 
     private void square_2_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_2_4ActionPerformed
-        // TODO add your handling code here:
+       show_moves(2, 4);
     }//GEN-LAST:event_square_2_4ActionPerformed
 
     private void square_2_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_2_3ActionPerformed
-        // TODO add your handling code here:
+       show_moves(2, 3);
     }//GEN-LAST:event_square_2_3ActionPerformed
 
     private void square_2_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_2_6ActionPerformed
-        // TODO add your handling code here:
+       show_moves(2, 6);
     }//GEN-LAST:event_square_2_6ActionPerformed
 
     private void square_2_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_2_5ActionPerformed
-        // TODO add your handling code here:
+       show_moves(2, 5);
     }//GEN-LAST:event_square_2_5ActionPerformed
 
     private void square_2_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_2_8ActionPerformed
-        // TODO add your handling code here:
+       show_moves(2, 8);
     }//GEN-LAST:event_square_2_8ActionPerformed
 
     private void square_2_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_2_7ActionPerformed
-        // TODO add your handling code here:
+       show_moves(2, 7);
     }//GEN-LAST:event_square_2_7ActionPerformed
 
     private void square_3_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_3_2ActionPerformed
-        // TODO add your handling code here:
+      show_moves(3, 2);
     }//GEN-LAST:event_square_3_2ActionPerformed
 
     private void square_3_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_3_1ActionPerformed
-        // TODO add your handling code here:
+        show_moves(3, 1);
     }//GEN-LAST:event_square_3_1ActionPerformed
 
     private void square_3_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_3_4ActionPerformed
-        // TODO add your handling code here:
+       show_moves(3, 4);
     }//GEN-LAST:event_square_3_4ActionPerformed
 
     private void square_3_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_3_3ActionPerformed
-        // TODO add your handling code here:
+        show_moves(3, 3);
     }//GEN-LAST:event_square_3_3ActionPerformed
 
     private void square_3_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_3_6ActionPerformed
-        // TODO add your handling code here:
+        show_moves(3, 6);
     }//GEN-LAST:event_square_3_6ActionPerformed
 
     private void square_3_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_3_5ActionPerformed
-        // TODO add your handling code here:
+        show_moves(3, 5);
     }//GEN-LAST:event_square_3_5ActionPerformed
 
     private void square_3_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_3_8ActionPerformed
-        // TODO add your handling code here:
+        show_moves(3, 8);
     }//GEN-LAST:event_square_3_8ActionPerformed
 
     private void square_3_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_3_7ActionPerformed
-        // TODO add your handling code here:
+        show_moves(3, 7);
     }//GEN-LAST:event_square_3_7ActionPerformed
 
     private void square_4_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_4_2ActionPerformed
-        // TODO add your handling code here:
+        show_moves(4, 2);
     }//GEN-LAST:event_square_4_2ActionPerformed
 
     private void square_4_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_4_1ActionPerformed
-        // TODO add your handling code here:
+        show_moves(4, 1);
     }//GEN-LAST:event_square_4_1ActionPerformed
 
     private void square_4_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_4_4ActionPerformed
-        // TODO add your handling code here:
+        show_moves(4, 4);
     }//GEN-LAST:event_square_4_4ActionPerformed
 
     private void square_4_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_4_3ActionPerformed
-        // TODO add your handling code here:
+        show_moves(4, 3);
     }//GEN-LAST:event_square_4_3ActionPerformed
 
     private void square_4_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_4_6ActionPerformed
-        // TODO add your handling code here:
+        show_moves(4, 6);
     }//GEN-LAST:event_square_4_6ActionPerformed
 
     private void square_4_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_4_5ActionPerformed
-        // TODO add your handling code here:
+        show_moves(4, 5);
     }//GEN-LAST:event_square_4_5ActionPerformed
 
     private void square_4_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_4_8ActionPerformed
-        // TODO add your handling code here:
+        show_moves(4, 8);
     }//GEN-LAST:event_square_4_8ActionPerformed
 
     private void square_4_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_4_7ActionPerformed
-        // TODO add your handling code here:
+        show_moves(4, 7);
     }//GEN-LAST:event_square_4_7ActionPerformed
 
     private void square_5_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_5_2ActionPerformed
-        // TODO add your handling code here:
+        show_moves(5,2);
     }//GEN-LAST:event_square_5_2ActionPerformed
 
     private void square_5_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_5_1ActionPerformed
-        // TODO add your handling code here:
+       show_moves(5, 1);
     }//GEN-LAST:event_square_5_1ActionPerformed
 
     private void square_5_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_5_4ActionPerformed
-        // TODO add your handling code here:
+        show_moves(5, 4);
     }//GEN-LAST:event_square_5_4ActionPerformed
 
     private void square_5_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_5_3ActionPerformed
-        // TODO add your handling code here:
+        show_moves(5, 3);
     }//GEN-LAST:event_square_5_3ActionPerformed
 
     private void square_5_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_5_6ActionPerformed
-        // TODO add your handling code here:
+        show_moves(5, 6);
     }//GEN-LAST:event_square_5_6ActionPerformed
 
     private void square_5_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_5_5ActionPerformed
-        // TODO add your handling code here:
+        show_moves(5, 5);
     }//GEN-LAST:event_square_5_5ActionPerformed
 
     private void square_5_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_5_8ActionPerformed
-        // TODO add your handling code here:
+        show_moves(5, 8);
     }//GEN-LAST:event_square_5_8ActionPerformed
 
     private void square_5_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_5_7ActionPerformed
-        // TODO add your handling code here:
+        show_moves(5, 7);
     }//GEN-LAST:event_square_5_7ActionPerformed
 
     private void square_6_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_6_2ActionPerformed
-        // TODO add your handling code here:
+        show_moves(6, 2);
     }//GEN-LAST:event_square_6_2ActionPerformed
 
     private void square_6_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_6_1ActionPerformed
-        // TODO add your handling code here:
+        show_moves(6, 1);
     }//GEN-LAST:event_square_6_1ActionPerformed
 
     private void square_6_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_6_4ActionPerformed
-        // TODO add your handling code here:
+        show_moves(6, 4);
     }//GEN-LAST:event_square_6_4ActionPerformed
 
     private void square_6_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_6_3ActionPerformed
-        // TODO add your handling code here:
+       show_moves(6, 3);
     }//GEN-LAST:event_square_6_3ActionPerformed
 
     private void square_6_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_6_6ActionPerformed
-        // TODO add your handling code here:
+        show_moves(6, 6);
     }//GEN-LAST:event_square_6_6ActionPerformed
 
     private void square_6_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_6_5ActionPerformed
-        // TODO add your handling code here:
+       show_moves(6, 5);
     }//GEN-LAST:event_square_6_5ActionPerformed
 
     private void square_6_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_6_8ActionPerformed
-        // TODO add your handling code here:
+       show_moves(6, 8);
     }//GEN-LAST:event_square_6_8ActionPerformed
 
     private void square_6_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_6_7ActionPerformed
-        // TODO add your handling code here:
+        show_moves(6, 7);
     }//GEN-LAST:event_square_6_7ActionPerformed
 
     private void square_7_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_7_2ActionPerformed
-        // TODO add your handling code here:
+        show_moves(7, 2);
     }//GEN-LAST:event_square_7_2ActionPerformed
 
     private void square_7_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_7_1ActionPerformed
-        // TODO add your handling code here:
+        show_moves(7, 1);
     }//GEN-LAST:event_square_7_1ActionPerformed
 
     private void square_7_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_7_4ActionPerformed
-        // TODO add your handling code here:
+        show_moves(7, 4);
     }//GEN-LAST:event_square_7_4ActionPerformed
 
     private void square_7_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_7_3ActionPerformed
-        // TODO add your handling code here:
+       show_moves(7, 3);
     }//GEN-LAST:event_square_7_3ActionPerformed
 
     private void square_7_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_7_6ActionPerformed
-        // TODO add your handling code here:
+        show_moves(7, 6);
     }//GEN-LAST:event_square_7_6ActionPerformed
 
     private void square_7_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_7_5ActionPerformed
-        // TODO add your handling code here:
+        show_moves(7, 5);
     }//GEN-LAST:event_square_7_5ActionPerformed
 
     private void square_7_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_7_8ActionPerformed
-        // TODO add your handling code here:
+       show_moves(7, 8);
     }//GEN-LAST:event_square_7_8ActionPerformed
 
     private void square_7_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_7_7ActionPerformed
-        // TODO add your handling code here:
+        show_moves(7, 7);
     }//GEN-LAST:event_square_7_7ActionPerformed
 
     private void square_8_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_8_2ActionPerformed
-        // TODO add your handling code here:
+       show_moves(8, 2);
     }//GEN-LAST:event_square_8_2ActionPerformed
 
     private void square_8_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_8_1ActionPerformed
-        // TODO add your handling code here:
+       show_moves(8, 1);
     }//GEN-LAST:event_square_8_1ActionPerformed
 
     private void square_8_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_8_4ActionPerformed
-        // TODO add your handling code here:
+        show_moves(8, 4);
     }//GEN-LAST:event_square_8_4ActionPerformed
 
     private void square_8_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_8_3ActionPerformed
-        // TODO add your handling code here:
+        show_moves(8, 3);
     }//GEN-LAST:event_square_8_3ActionPerformed
 
     private void square_8_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_8_6ActionPerformed
-        // TODO add your handling code here:
+       show_moves(8, 6);
     }//GEN-LAST:event_square_8_6ActionPerformed
 
     private void square_8_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_8_5ActionPerformed
-        // TODO add your handling code here:
+        show_moves(8, 5);
     }//GEN-LAST:event_square_8_5ActionPerformed
 
     private void square_8_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_8_8ActionPerformed
-        // TODO add your handling code here:
+        show_moves(8, 8);
     }//GEN-LAST:event_square_8_8ActionPerformed
 
     private void square_8_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_square_8_7ActionPerformed
-        // TODO add your handling code here:
+        show_moves(8, 7);
     }//GEN-LAST:event_square_8_7ActionPerformed
 
     /**
      * @param args the command line arguments
      */
     
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Board.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Board.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Board.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Board.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Board().setVisible(true);
-            }
-            
-        });
-        
-        
-        
-        
-        
-        
-    }
+      
       
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton square_1_1;
